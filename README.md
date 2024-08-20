@@ -1,6 +1,6 @@
 ## B UI
 
-**This repo contains the UI for the simple X clone, B.**
+**This repo contains the UI for the simple X clone, B.** [Check out this repo for the smart contracts.](https://github.com/OnlyOneJMJQ/b-contracts)
 
 ### Install
 
