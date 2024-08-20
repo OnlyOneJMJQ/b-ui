@@ -1,4 +1,6 @@
-## Quick Start Example
+## B UI
+
+**This repo contains the UI for the simple X clone, B.**
 
 ### Install
 
@@ -12,7 +14,7 @@ bun i
 cp .env.example .env.local
 ```
 
-Fill in `NEXT_PUBLIC_PAYMASTER_API_KEY` and `NEXT_PUBLIC_BUNDLER_URL`, you  can get both the urls from [Biconomy Dashboard](https://dashboard.biconomy.io/).
+Fill in `NEXT_PUBLIC_PAYMASTER_API_KEY` and `NEXT_PUBLIC_BUNDLER_URL`, you can get both the urls from [Biconomy Dashboard](https://dashboard.biconomy.io/).
 
 ### Run
 
