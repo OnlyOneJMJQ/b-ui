@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 37 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="fretboard">
+    </g>
+    <g id="fretboard1" serif:id="fretboard">
+    </g>
+    <g id="fretboard2" serif:id="fretboard">
+    </g>
+    <g id="fretboard3" serif:id="fretboard">
+    </g>
+    <g id="fretboard4" serif:id="fretboard">
+    </g>
+    <g id="fretboard5" serif:id="fretboard">
+    </g>
+    <g id="fretboard6" serif:id="fretboard">
+    </g>
+    <g id="fretboard7" serif:id="fretboard">
+    </g>
+    <g id="finger-1" serif:id="finger 1">
+    </g>
+    <g id="finger-11" serif:id="finger 1">
+    </g>
+    <g id="finger-12" serif:id="finger 1">
+    </g>
+    <g id="finger-13" serif:id="finger 1">
+    </g>
+    <g id="finger-14" serif:id="finger 1">
+    </g>
+    <g id="finger-15" serif:id="finger 1">
+    </g>
+    <g id="finger-16" serif:id="finger 1">
+    </g>
+    <g id="finger-17" serif:id="finger 1">
+    </g>
+    <g id="finger-2" serif:id="finger 2">
+    </g>
+    <g id="finger-21" serif:id="finger 2">
+    </g>
+    <g id="finger-22" serif:id="finger 2">
+    </g>
+    <g id="finger-23" serif:id="finger 2">
+    </g>
+    <g id="finger-24" serif:id="finger 2">
+    </g>
+    <g id="finger-25" serif:id="finger 2">
+    </g>
+    <g id="finger-26" serif:id="finger 2">
+    </g>
+    <g id="finger-3" serif:id="finger 3">
+    </g>
+    <g id="finger-31" serif:id="finger 3">
+    </g>
+    <g id="finger-32" serif:id="finger 3">
+    </g>
+    <g id="finger-33" serif:id="finger 3">
+    </g>
+    <g id="finger-34" serif:id="finger 3">
+    </g>
+    <g id="finger-35" serif:id="finger 3">
+    </g>
+    <g id="finger-36" serif:id="finger 3">
+    </g>
+    <g id="finger-37" serif:id="finger 3">
+    </g>
+    <g id="finger-38" serif:id="finger 3">
+    </g>
+    <g id="finger-4" serif:id="finger 4">
+    </g>
+    <rect id="Artboard2" x="0" y="0" width="36.618" height="36" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Artboard21" serif:id="Artboard2" x="0" y="0" width="36.618" height="36"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g transform="matrix(1,0,0,1,-16.3281,-532.978)">
+            <g transform="matrix(1.19436,0,0,0.947368,-29.0577,11.9254)">
+                <path d="M46,550L38,550L38,588L46,588L46,550ZM43.488,553.167L43.488,584.833C43.488,584.833 40.512,584.833 40.512,584.833C40.512,584.833 40.512,553.167 40.512,553.167L43.488,553.167Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(1.01297,0,0,0.995474,-25.7369,-14.533)">
+                <path d="M66.5,569L48,569L48,550L66.5,550C66.5,550 66.5,553.014 66.5,553.014L50.962,553.014C50.962,553.014 50.962,565.986 50.962,565.986L66.5,565.986L66.5,569ZM66.5,550C71.743,550 76,554.257 76,559.5C76,564.743 71.743,569 66.5,569L66.5,565.986C70.095,565.986 73.038,563.095 73.038,559.5C73.038,555.905 70.095,553.014 66.5,553.014L66.5,550Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(1.07358,0,0,1.05503,-28.6458,-31.3437)">
+                <path d="M66.5,569L48,569L48,550L66.5,550C67.462,550 68.39,550.143 69.265,550.41C69.07,551.786 67.906,552.844 66.5,552.844C67.906,552.844 69.07,551.786 69.265,550.41C73.161,551.595 76,555.218 76,559.5C76,564.743 71.743,569 66.5,569L66.5,566.156C70.188,566.156 73.206,563.188 73.206,559.5C73.206,555.812 70.188,552.844 66.5,552.844L50.794,552.844C50.794,552.844 50.794,566.156 50.794,566.156L66.5,566.156L66.5,569Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -42,18 +42,19 @@ export default function PostCreator() {
     };
 
     return (
-        <div className="border-2 border-white p-2">
+        <div className="border border-gray-700">
             <textarea
                 value={postText}
                 onChange={handlePostChange}
-                className="bg-black border-2 border-white rounded"
+                className="bg-black p-4 w-full"
+                placeholder="What's buzzing around your mind?"
             />
             <button
                 onClick={handleSubmit}
                 disabled={waitIsLoading || isPending}
-                className="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded cursor-pointer"
+                className="text-yellow-500 hover:text-yellow-700 bg-black p-4 font-bold cursor-pointer"
             >
-                {waitIsLoading || isPending ? "Buzzing..." : "Buzz"}
+                {waitIsLoading || isPending ? "Buzzing..." : "🐝 Buzz"}
             </button>
             {waitIsSuccess && (
                 <div>
