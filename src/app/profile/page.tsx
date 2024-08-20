@@ -2,19 +2,19 @@
 import Image from "next/image";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { useReadContract } from "wagmi";
-import { abi } from "./abis/Feed.js";
-import PostCreator from "./PostCreator";
+import { abi } from "../abis/Feed.js";
 import { useSmartAccount } from "@biconomy/use-aa";
-import Post from "./Post";
+import Post from "../Post";
 
-export default function Home() {
+export default function Profile() {
+    const { smartAccountAddress } = useSmartAccount();
+
     const posts = useReadContract({
         abi,
         address: "0xeA1aB320bDb69Bfbda54fB4BECd8ef839A9cd722",
-        functionName: "getAllComments",
+        functionName: "getCommentsByUser",
+        args: [smartAccountAddress],
     });
-
-    const { smartAccountAddress } = useSmartAccount();
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -41,11 +41,11 @@ export default function Home() {
 
             <div className="relative flex flex-col gap-6 place-items-center">
                 <div className="flex">
+                    Posts by{" "}
                     {smartAccountAddress
-                        ? `Connected ${smartAccountAddress}`
+                        ? `${smartAccountAddress}`
                         : "Not Connected"}
                 </div>
-                <PostCreator />
             </div>
 
             <div className="relative flex flex-col gap-6 place-items-center">
